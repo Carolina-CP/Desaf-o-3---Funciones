@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+html{
+    box-sizing:border-box;
+    font-family: ubuntu;
+}
+
+.nav-bar{
+    height: 15vh;
+    background-color: rgb(30, 34, 31); 
+   text-align: center;
+}
+
+.nav-bar ul{
+    list-style: none;
+    
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    margin: 4rem;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.nav-bar ul li a:hover{
+    color: rgb(143, 143, 79);
+    
+}
+
+main{
+    background-color: white;
+    margin: 0;
+    height: 80vh;
+    display:flexbox;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: Titan One;
+    font-weight: 400;
+    padding-top: 10vh;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+div{
+    margin: 1rem;
+    display: inline-block;
+}
+
+.ele1{
+    background-color: green;
+}
+
+.row1{
+        display:block;
+}
+.row2{
+    display:block;
+}
+
+.divColorSelectA{
+    padding-top: 7%;
+    height: 45px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+
+
+.divColorSelectB{
+    padding-top: 7%;
+    height: 45px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+}
+
+
+
+.divColorSelectC{
+    padding-top: 7%;
+    height: 45px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: pink;
+    color: rgb(143, 10, 99);
+}
+
+
+
+.divColorSelectD{
+    padding-top: 7%;
+    height: 45px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: brown;
+    color: white;
+}
+
+
+
+.divColorApply{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
